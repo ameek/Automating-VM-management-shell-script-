@@ -1,0 +1,21 @@
+# ## automating the VM staritng and Log in
+#
+# ##1.setting up the VM for the first time!
+# # step 1: creating ssh key
+# ssh-keygen
+# #give everything defult and make the procedure done
+#
+# ls .ssh/id_rsa
+#
+# #sudo virsh create /etc/libvirt/qemu/VM_name.xml
+# sudo virsh create /etc/libvirt/qemu/ubuntu14.04.xml
+#
+# # ssh-copy-id -i ~/.ssh/id_dsa.pub user@<your vm er ip>
+# ssh-copy-id -i ~/.ssh/id_dsa.pub amk@192.168.122.58
+#
+# # for getting logged on to the VM
+# # ssh -i .ssh/id_rsa user@ip
+# ssh -i ~/.ssh/id_rsa amk@192.168.122.58
+#
+# success fully logged in to the VM
+#
