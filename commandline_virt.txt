@@ -1,0 +1,19 @@
+#for beginners to learn the names for virtual machine
+http://virt-tools.org/learning/start-conventions/
+
+#the commands
+http://virt-tools.org/learning/install-with-command-line/
+
+#sample sehll script
+http://www.linux-kvm.org/page/Simple_shell_script_to_manage_your_virtual_machine_with_bridged_networking
+
+#**final links Ubuntu
+https://help.ubuntu.com/community/KVM/Virsh
+
+#**final links for Centos/Fedora
+https://www.centos.org/docs/5/html/5.2/Virtualization/chap-Virtualization-Managing_guests_with_virsh.html
+
+##find the config file for the VM
+cd /etc/libvirt/qemu/ubuntu14.04.xml
+##to start the vm
+"virsh create /etc/libvirt/qemu/ubuntu14.04.xml"
